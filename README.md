@@ -52,23 +52,23 @@ The following metrics were extracted from the final run logs (`RUN_2025-11-03_20
 
 ### 1. Floorplan & Die Area
 | Metric | Value |
-| :--- | :--- | :--- |
-| Die Area | $300.0 \mu m \times 300.0 \mu m$ | |
-| Core Area | $288.88 \mu m \times 277.44 \mu m$ | |
+| :--- | :--- |
+| Die Area | $300.0 \mu m \times 300.0 \mu m$ |
+| Core Area | $288.88 \mu m \times 277.44 \mu m$ |
 
 ### 2. Cell Count (Post-Global Routing)
 This is the final cell count after all synthesis, CTS, and optimization stages.
 
 | Cell Type | Count |
-| :--- | :--- | :--- |
-| **Total Cell Instances** | **2078** | |
-| Sequential Cells | 55 | |
-| Combinational Cells | 488 | |
-| Timing Repair Buffers | 150 | |
-| Clock Buffers | 6 | |
-| Tap Cells | 1144 | |
-| Fill Cells | 204 | |
-| Antenna Cells | 4 | |
+| :--- | :--- | 
+| **Total Cell Instances** | **2078** |
+| Sequential Cells | 55 |
+| Combinational Cells | 488 |
+| Timing Repair Buffers | 150 |
+| Clock Buffers | 6 |
+| Tap Cells | 1144 |
+| Fill Cells | 204 |
+| Antenna Cells | 4 |
 
 ### 3. Clock Tree Synthesis (CTS)
 | Metric | Value | 
