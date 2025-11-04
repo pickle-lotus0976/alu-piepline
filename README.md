@@ -51,7 +51,7 @@ Here is a screenshot of the final GDSII layout, viewed in KLayout.
 The following metrics were extracted from the final run logs (`RUN_2025-11-03_20-52-37`).
 
 ### 1. Floorplan & Die Area
-| Metric | Value | Source |
+| Metric | Value |
 | :--- | :--- | :--- |
 | Die Area | $300.0 \mu m \times 300.0 \mu m$ | |
 | Core Area | $288.88 \mu m \times 277.44 \mu m$ | |
@@ -59,7 +59,7 @@ The following metrics were extracted from the final run logs (`RUN_2025-11-03_20
 ### 2. Cell Count (Post-Global Routing)
 This is the final cell count after all synthesis, CTS, and optimization stages.
 
-| Cell Type | Count | Source |
+| Cell Type | Count |
 | :--- | :--- | :--- |
 | **Total Cell Instances** | **2078** | |
 | Sequential Cells | 55 | |
@@ -71,7 +71,7 @@ This is the final cell count after all synthesis, CTS, and optimization stages.
 | Antenna Cells | 4 | |
 
 ### 3. Clock Tree Synthesis (CTS)
-| Metric | Value | Source |
+| Metric | Value | 
 | :--- | :--- | :--- |
 | Clock Sinks (Flip-flops) | 55 | |
 | Clock Tree Structure | H-Tree | |
