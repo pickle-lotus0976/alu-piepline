@@ -30,8 +30,6 @@ Here is a screenshot of the final GDSII layout, viewed in KLayout.
 
 ## How to Replicate the Run
 
-*(**Note:** Add any other dependencies, like `volare` or `docker`)*
-
 1.  **Clone the repository:**
     ```bash
     git clone [https://github.com/](https://github.com/)[your-username]/[your-repo-name].git
@@ -72,28 +70,28 @@ This is the final cell count after all synthesis, CTS, and optimization stages.
 
 ### 3. Clock Tree Synthesis (CTS)
 | Metric | Value | 
-| :--- | :--- | :--- |
-| Clock Sinks (Flip-flops) | 55 | |
-| Clock Tree Structure | H-Tree | |
-| Buffers Inserted (CTS) | 5 | |
+| :--- | :--- |
+| Clock Sinks (Flip-flops) | 55 |
+| Clock Tree Structure | H-Tree |
+| Buffers Inserted (CTS) | 5 |
 
 ### 4. Routing (Post-Global Routing)
-| Metric | Value | Source |
-| :--- | :--- | :--- |
-| **Total Wirelength** | **$38515 \mu m$** | |
-| **Congestion** | **0/0/0 (H/V/Total Overflow)** | |
-| Final Number of Vias | 5648 | |
+| Metric | Value |
+| :--- | :--- |
+| **Total Wirelength** | **$38515 \mu m$** |
+| **Congestion** | **0/0/0 (H/V/Total Overflow)** |
+| Final Number of Vias | 5648 |
 
 ### 5. Final Static Timing Analysis (STA)
-This is the final timing report after Place & Route. This highlights the main challenge for future work.
+This is the final timing report after Place & Route.
 
-| Corner | Metric | Value | Source |
-| :--- | :--- | :--- | :--- |
-| **Overall** | **Setup WNS (Worst Negative Slack)** | **$-0.9460 \ ns$** | |
-| **Overall** | **Setup TNS (Total Negative Slack)** | **$-5.7466 \ ns$** | |
-| **Overall** | **Setup Violating Paths** | **40** | |
-| **Overall** | **Hold WNS (Worst Negative Slack)** | **$0.1448 \ ns$** | |
-| **Overall** | **Hold Violating Paths** | **0** | |
+| Corner | Metric | Value |
+| :--- | :--- | :--- |
+| **Overall** | **Setup WNS (Worst Negative Slack)** | **$-0.9460 \ ns$** |
+| **Overall** | **Setup TNS (Total Negative Slack)** | **$-5.7466 \ ns$** |
+| **Overall** | **Setup Violating Paths** | **40** |
+| **Overall** | **Hold WNS (Worst Negative Slack)** | **$0.1448 \ ns$** |
+| **Overall** | **Hold Violating Paths** | **0** |
 
 ## Next Steps
 
