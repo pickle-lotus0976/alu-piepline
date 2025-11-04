@@ -7,7 +7,6 @@ The primary goal of this project was to test and learn the end-to-end toolchain 
 ## Final GDSII Layout
 
 Here is a screenshot of the final GDSII layout, viewed in KLayout.
-*(**Note:** You'll need to put your GDSII image in a folder like `docs/` and change this link)*
 
 ![Final GDSII Layout](docs/Full.png)
 
@@ -32,8 +31,8 @@ Here is a screenshot of the final GDSII layout, viewed in KLayout.
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/](https://github.com/)[your-username]/[your-repo-name].git
-    cd [your-repo-name]
+    git clone [https://github.com/pickle-lotus0976/alu-piepline].git
+    cd [alu-piepline]
     ```
 2.  **Install dependencies:**
     * Ensure you have a working OpenLane2 environment.
