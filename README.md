@@ -16,7 +16,13 @@ Here is a screenshot of the final GDSII layout, viewed in KLayout.
 * **Design:** 16-bit Pipelined Arithmetic Logic Unit (ALU)
 * **Pipelining:** `3-stage`
 * **ALU Operations:**
-    * `[...]`
+    * `ADD`
+    * `SUB`
+    * `OR`
+    * `XOR`
+    * `SLL`
+    * `SRL`
+    * `SLT`
 * **Technology:** SkyWater 130nm (`sky130_fd_sc_hd`)
 
 ## Toolchain & Flow
