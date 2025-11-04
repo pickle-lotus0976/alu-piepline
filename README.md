@@ -31,15 +31,14 @@ Here is a screenshot of the final GDSII layout, viewed in KLayout.
 
 1.  **Clone the repository:**
     ```bash
-    git clone https://github.com/pickle-lotus0976/alu-piepline.git
-    cd alu-piepline
+    git clone https://github.com/pickle-lotus0976/alu-pipeline.git
+    cd alu-pipeline
     ```
 2.  **Install dependencies:**
     * Ensure you have a working OpenLane2 environment.
     * Ensure the SkyWater 130nm PDK is installed.
 3.  **Run the flow:**
     ```bash
-    # (This is an example command, please update it with your actual run command)
     openlane config.json
     ```
 
